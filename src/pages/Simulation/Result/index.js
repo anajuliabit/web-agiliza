@@ -4,7 +4,7 @@ import { CustomButton } from "../../../components/CustomButton";
 import "./styles.css";
 
 export const Result = () => {
-  function handleContinue() {}
+ 
   return (
     <div className="container">
       <span className="title">Este é o resultado prévio da sua simulação:</span>
@@ -36,7 +36,7 @@ export const Result = () => {
         </div>
       </div>
       <div className="button">
-        <CustomButton onClick={handleContinue}>Quero continuar</CustomButton>
+        <CustomButton >Quero continuar</CustomButton>
       </div>
     </div>
   );
