@@ -2,9 +2,14 @@ import React from "react";
 import { Slider } from "../../../components/Slider";
 import { CustomButton } from "../../../components/CustomButton";
 import "./styles.css";
+import { auth } from "../../../services/api";
 
 export const Result = () => {
-  function handleContinue() {}
+  function handleContinue() {
+    auth().then((result) => {
+      window.location = result.data;
+    });
+  }
   return (
     <div className="container">
       <span className="title">Este é o resultado prévio da sua simulação:</span>

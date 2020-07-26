@@ -22,7 +22,7 @@ export const Simulation = () => {
         <span className="actual">{step === 0 ? "01" : "02"}</span>
         <span>/02</span>
       </div>
-      <span class="title">Faça a simulação do seu empréstimo</span>
+      <span className="title">Faça a simulação do seu empréstimo</span>
       <div className="simulation">
         <span>
           {step === 0
