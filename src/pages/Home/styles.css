@@ -1,0 +1,41 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 2px;
+  height: 500px;
+  width: 100%;
+  color: #ffff;
+  position: relative;
+}
+
+.item img {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+
+.item h1,
+p {
+  font-size: 35px;
+}
+
+.item h1,
+p {
+  margin: 0 70px 0 30px;
+}
+
+.slide1 {
+  background-image: url("../../assets/images/Capa.png");
+}
+
+.slide2 {
+  background-image: url("../../assets/images/Foto\ 1.png");
+}
+.slide3 {
+  background-image: url("../../assets/images/Foto\ 03.png");
+}
+.slide4 {
+  background-image: url("../../assets/images/Foto\ 04.png");
+}

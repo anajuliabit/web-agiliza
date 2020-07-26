@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,900&display=swap");
+
+root {
+  --text-color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background: #ffff;
+  -webkit-font-smoothing: antialiased;
+  color: var(--text-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body,
+input,
+button {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  width: 340px;
+  height: 56px;
+  background: #57bf77;
+  border-radius: 5px;
+  border-color: #57bf77;
+  color: #ffff;
+  font-size: 15px;
+  margin: 5px;
+  border-style: solid;
+  box-shadow: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  outline-offset: -2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+  font-family: "Source Sans Pro", sans-serif;
 }
