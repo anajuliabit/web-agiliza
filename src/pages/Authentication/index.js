@@ -1,16 +1,13 @@
-import React, { useEffect } from "react";
+import React, from "react";
 import { CustomButton } from "../../components/CustomButton";
 import logo from "../../assets/small-logo.svg";
 import "./styles.css";
+import { useHistory } from "react-router-dom";
 
 export const Authentication = (props) => {
-  function handleClick() {
-    const paramsString = props.location.search;
-    console.log(props.location.search);
-    const params = new URLSearchParams(paramsString);
-    const tags = params.get("code");
-    console.log(tags);
-  }
+  const navigation = useHistory();
+
+  function handleClick() {}
   return (
     <div className="response">
       <img src={logo} className="logo" alt="logo" />

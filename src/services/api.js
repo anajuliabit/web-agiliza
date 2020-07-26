@@ -5,8 +5,11 @@ const api = axios.create({
 });
 
 export async function auth() {
-  const response = await api.get("/accounts/auth");
-  return response;
-  console.log(response.data);
+  return await api.get("/accounts/auth");
 }
+
+export async function getToken(code) {
+  return await api.get(`/auth/token?code=${code}`);
+}
+
 export default api;

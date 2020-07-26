@@ -10,6 +10,7 @@ export const Result = () => {
       window.location = result.data;
     });
   }
+
   return (
     <div className="container">
       <span className="title2">
