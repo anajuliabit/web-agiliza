@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 
 export const Slider = () => {
-  const [ranger, setRanger] = useState("0");
+  const [ranger, setRanger] = useState(10000);
 
   return (
     <input
