@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.container > .step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+  font-style: 20px;
+}
+
+.container > .step > .actual {
+  color: #57bf77;
+  font-weight: bold;
+}
+
+.container > .title {
+  font-size: 30px;
+  margin: 50px;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+  line-height: 93.7%;
+  position: absolute;
+  font-style: normal;
+  top: 80px;
+}
+
+.simulation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.simulation > span {
+  color: #5b5b5b;
+  font-size: 21px;
+  width: 180px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.simulation > .value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simulation > .value > span {
+  font-size: 30px;
+  color: #d3d3d3;
+  line-height: 79.69%;
+  margin-right: 10px;
+}
+
+.simulation > .value > h1 {
+  font-size: 40px;
+  line-height: 79.69%;
+  letter-spacing: -0.03em;
+}
+
+.simulation > .slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+}
+
+.simulation > .slider > p {
+  font-size: 16px;
+  color: #acacac;
+  text-align: center;
+}
+
+.container > .button {
+  bottom: 160px;
+  position: absolute;
+}

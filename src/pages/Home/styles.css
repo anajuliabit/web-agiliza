@@ -22,8 +22,8 @@ p {
   font-size: 35px;
 }
 
-.item h1,
-p {
+.item > h1,
+.item > p {
   margin: 0 70px 0 30px;
 }
 

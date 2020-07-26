@@ -9,7 +9,7 @@ import { CustomButton } from "../../components/CustomButton";
 export const Home = () => {
   const navigation = useHistory();
   function handleLoan() {
-    navigation.push("/simulate");
+    navigation.push("/simulation");
   }
   function handleInvest() {
     navigation.push("/invest");
