@@ -1,4 +1,4 @@
-import React, from "react";
+import React from "react";
 import { CustomButton } from "../../components/CustomButton";
 import logo from "../../assets/small-logo.svg";
 import "./styles.css";
