@@ -8,7 +8,10 @@ export const Simulation = () => {
   const [step, setStep] = useState(0);
   const navigation = useHistory();
   function handleContinue() {
-    setStep(1);
+    if (step === 0) {
+      return setStep(1);
+    }
+    return navigation.push("/simulation/result");
   }
   function handleBack() {
     setStep(0);
@@ -17,7 +20,7 @@ export const Simulation = () => {
     <div className="container">
       <div className="step">
         <span className="actual">{step === 0 ? "01" : "02"}</span>
-        <span>/03</span>
+        <span>/02</span>
       </div>
       <span class="title">Faça a simulação do seu empréstimo</span>
       <div className="simulation">
