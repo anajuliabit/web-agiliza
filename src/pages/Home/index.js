@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import "./styles.css";
 import logo from "../../assets/logo.svg";
 import { useHistory } from "react-router-dom";
+import { CustomButton } from "../../components/CustomButton";
 
 export const Home = () => {
   const navigation = useHistory();
@@ -59,10 +60,10 @@ export const Home = () => {
         </div>
       </Carousel>
       <div className="content">
-        <button onClick={handleLoan}> Quero pedir um empréstimo</button>
-        <button className="button2" onClick={handleInvest}>
-          Quero investir
-        </button>
+        <CustomButton onClick={handleLoan}>
+          Quero pedir um empréstimo
+        </CustomButton>
+        <CustomButton onClick={handleInvest}>Quero investir</CustomButton>
       </div>
     </div>
   );

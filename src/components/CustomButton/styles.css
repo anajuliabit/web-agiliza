@@ -1,0 +1,15 @@
+.custom-button {
+  width: 340px;
+  height: 56px;
+  background: #57bf77;
+  border-radius: 5px;
+  border-color: #57bf77;
+  color: #ffff;
+  font-size: 15px;
+  margin: 5px;
+  border-style: solid;
+  box-shadow: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  outline-offset: -2px;
+}
