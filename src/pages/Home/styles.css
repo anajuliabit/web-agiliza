@@ -8,6 +8,7 @@
   width: 100%;
   color: #ffff;
   position: relative;
+  background-repeat: repeat-y;
 }
 
 .item img {
@@ -27,24 +28,37 @@ p {
 }
 
 .slide1 {
-  background-image: url("../../assets/images/Capa.png");
+  background-image: url("../../assets/images/capa.png");
 }
 
 .slide2 {
-  background-image: url("../../assets/images/Foto\ 1.png");
+  background-image: url("../../assets/images/foto1.png");
 }
 .slide3 {
-  background-image: url("../../assets/images/Foto\ 03.png");
+  background-image: url("../../assets/images/foto2.png");
 }
 .slide4 {
-  background-image: url("../../assets/images/Foto\ 04.png");
+  background-image: url("../../assets/images/foto3.png");
 }
 
 .content {
   width: 100%;
-  height: 100%;
+  height: 200px;
   display: flex;
+  margin-top: 50px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.link {
+  letter-spacing: -0.055em;
+  color: #555353b6;
+  text-decoration: none;
+  font-size: larger;
+  display: block;
+}
+.link:hover {
+  transition: 1s;
+  color: #404040;
 }

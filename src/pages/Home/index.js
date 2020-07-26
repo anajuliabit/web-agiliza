@@ -3,7 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./styles.css";
 import logo from "../../assets/logo.svg";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import { CustomButton } from "../../components/CustomButton";
 
 export const Home = () => {
@@ -63,7 +63,12 @@ export const Home = () => {
         <CustomButton onClick={handleLoan}>
           Quero pedir um empréstimo
         </CustomButton>
-        <CustomButton onClick={handleInvest}>Quero investir</CustomButton>
+        <CustomButton onClick={handleInvest} color="gray">
+          Quero investir
+        </CustomButton>
+        <Link to="/account" className="link">
+          Acesse sua conta
+        </Link>
       </div>
     </div>
   );
