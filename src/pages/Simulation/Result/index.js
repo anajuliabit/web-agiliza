@@ -12,7 +12,9 @@ export const Result = () => {
   }
   return (
     <div className="container">
-      <span className="title">Este é o resultado prévio da sua simulação:</span>
+      <span className="title2">
+        Este é o resultado prévio da sua simulação:
+      </span>
       <div className="simulation">
         <span>Valor desejado:</span>
         <div className="value">
@@ -37,9 +39,10 @@ export const Result = () => {
         <span>Valor total a ser pago:</span>
         <div className="total-value">
           <span>R$</span>
-          <h1>9.769,80</h1>
+          <span className="value">9.769,80</span>
         </div>
       </div>
+      <div className="cards"></div>
       <div className="button">
         <CustomButton onClick={handleContinue}>Quero continuar</CustomButton>
       </div>

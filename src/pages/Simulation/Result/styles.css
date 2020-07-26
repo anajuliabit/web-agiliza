@@ -1,8 +1,24 @@
+.container > .title2 {
+  font-size: 24px;
+  margin: 50px;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+  line-height: 93.7%;
+  position: absolute;
+  font-style: normal;
+  top: 35px;
+}
+
 .simulation {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.result {
+  margin: 20px 0;
 }
 
 .result > span {
@@ -15,6 +31,7 @@
 }
 
 .result > .total-value {
+  margin-top: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,4 +48,7 @@
   color: #d3d3d3;
   line-height: 79.69%;
   margin-right: 10px;
+}
+.result > .total-value > .value {
+  color: #000;
 }

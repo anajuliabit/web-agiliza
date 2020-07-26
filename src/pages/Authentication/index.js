@@ -18,7 +18,7 @@ export const Authentication = (props) => {
         <h1>Uhull!</h1>
         <h1 className="accept">Seu empréstimo foi aceito.</h1>
       </div>
-      <span class="description">
+      <span className="description">
         Agora você pode conferir o andamento do seu empréstimo, as próximas
         faturas e o seu status.
       </span>
