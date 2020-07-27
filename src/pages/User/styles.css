@@ -124,5 +124,28 @@ div > i {
         color:#FFFFFF;;
 
 }
+.payNext{
+
+position: absolute;
+
+height: 11px;
+left: 17px;
+top: 656px;
+
+
+font-size: 20px;
+margin-top: 30px;
+/* or 11px */
+
+letter-spacing: -0.02em;
+
+color: #555555;
+
+
+}
+/*Link information*/
+.payNext{
+        text-decoration: underline blue;
+}
 
 

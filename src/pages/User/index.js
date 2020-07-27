@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import Navigation from './../../components/TabBar'
 
 export const User = () => {
 
@@ -53,8 +54,11 @@ andamento:</h4>
                     </div>
             </main>
            
+            <div className="payNext">
+               <bold>Próximas faturas</bold>
+            </div>
         </section>
-        
+        <Navigation/>
     </div>
    
   );
