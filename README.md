@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    <img src="./agiliza.gif" />
+    <img src="./src/assets/agiliza-white.gif" />
   </h1>
   <p>
 Esta aplicação foi desenvolvida durante o <a href="https://hackathon.tecban.com.br/"><span>Hackathon Tecban</span></a>.<br>
