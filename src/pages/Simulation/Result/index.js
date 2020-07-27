@@ -45,7 +45,7 @@ export const Result = () => {
       </div>
       <div className="cards"></div>
       <div className="button">
-        <CustomButton >Quero continuar</CustomButton>
+        <CustomButton onClick={handleContinue}>Quero continuar</CustomButton>
       </div>
     </div>
   );

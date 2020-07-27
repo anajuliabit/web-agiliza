@@ -7,7 +7,9 @@ import { useHistory } from "react-router-dom";
 export const Authentication = (props) => {
   const navigation = useHistory();
 
-  function handleClick() {}
+  function handleClick() {
+    navigation.push("/user");
+  }
   return (
     <div className="response">
       <img src={logo} className="logo" alt="logo" />
